@@ -1,0 +1,15 @@
+{
+  "name": "skip dxpx",
+  "manifest_version": 2,
+  "version": "0.0.1",
+  "description": "视频一秒看完",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://dxpx.nuaa.edu.cn/*"],
+      "js": ["script.js"]
+    }
+  ]
+}
